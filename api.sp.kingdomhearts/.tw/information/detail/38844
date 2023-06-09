@@ -1,0 +1,426 @@
+
+
+<!DOCTYPE html>
+<html>
+	
+<head>
+		<meta charset="utf-8">
+		<title>INFORMATION｜KINGDOM HEARTS Union χ</title>
+		<style type="text/css">
+			html{
+				background:#043654;
+				margin:0;
+				padding:0;
+				color:#fff;
+			}
+
+			body{
+				background:#043654 url(img/7JzqN464T) no-repeat scroll 2% top / 60% auto;
+				max-width:908px;
+				font-family: "ヒラギノ角ゴ Pro W3","Hiragino Kaku Gothic Pro","メイリオ",Meiryo,"ＭＳ Ｐゴシック","MS PGothic",sans-serif;
+				font-size: 85%;
+				letter-spacing: 0.05em;
+				line-height: 1.8;
+				margin:0 auto;
+				padding: 1em 0.5em 9em;
+			}
+
+			a {
+				color:#0ff;
+				text-decoration:none;
+			}
+
+			a:hover {
+				text-decoration:underline;
+			}
+
+			ul {
+				list-style:none;
+				padding-left:0;
+			}
+
+			.subject {
+				font-size:93%;
+			}
+
+			.date {
+				font-size:85%;
+				display:block;
+				float:left;
+				margin-right:0.5em;
+			}
+
+			.news_cat {
+				font-size:77%;
+				display:block;
+				float:left;
+				margin-right:0.5em;
+
+				width:8em;
+				text-align:center;
+
+				border-style:solid;
+				border-width:1px;
+				border-radius:3px;
+				-webkit-border-radius:3px;
+				-moz-border-radius:3px;
+
+				letter-spacing: 0;
+			}
+
+			.cat1 { /* 重要なお知らせ */
+				background:#ed5b60;
+				border-color:#eda1a4;
+			}
+
+			.cat2 { /* アップデート */
+				background:#9dc668;
+				border-color:#b8c7a5;
+			}
+
+			.cat3 { /* 終了 */
+				background:#872bc4;
+				border-color:#a067c5;
+			}
+
+			.cat4 { /* メンテ */
+				background:#f78d14;
+				border-color:#f7b15f;
+			}
+
+			.cat5 { /* 復旧 */
+				background:#f249dc;
+				border-color:#f391e6;
+			}
+
+			.cat6 { /* キャンペーン */
+				background:#872bc4;
+				border-color:#a067c5;
+			}
+
+			.cat7 { /* 障害 */
+				background:#bc3846;
+				border-color:#bd7179;
+			}
+
+			.cat8 { /* イベント */
+				background:#14caf7;
+				border-color:#5fd8f7;
+			}
+
+			.cat9 { /* お知らせ */
+				background:#4271d6;
+				border-color:#819bd5;
+			}
+
+			.cat10 { /* その他 */
+				background:#7a7a7a;
+				border-color:#a1a1a1;
+			}
+
+			.container .title {
+				border-bottom:1px dotted #fff;
+				margin-bottom:1.0em;
+				padding:0.7em 0 0.5em;
+				clear:both;
+			}
+
+			.btn {
+				position:fixed;
+				left:0;
+				bottom:0;
+				background:transparent url(img/7JzjNmCER) left top repeat-x;
+				width:116%;
+				border-top:1px solid #073562;
+				padding:0.8em 1.0em 0;
+			}
+
+			a#btn_back {
+				border:0;
+				height:0;
+				padding-top:5%;
+			}
+
+			a#btn_back:hover img {
+				opacity:0.6;
+				filter:alpha(opacity=60);
+				-ms-filter: "alpha( opacity=60 )";
+				background:none!important;
+			}
+		</style>
+
+		<script type="text/javascript">
+		  window.addEventListener('load', function () {
+			var target = parent.postMessage ? parent : ( parent.document.postMessage ? parent.document : undefined );
+			if ( target !== undefined && document.body.scrollHeight ) {
+				target.postMessage( document.body.scrollWidth + "," + document.body.scrollHeight, "*" );
+			}
+		  })
+		</script>
+		
+		<base target="tool_result">
+	</head>
+
+	<body>
+		<div class="container">
+						<div class="title">
+				<span class="date">04/01</span><span class="news_cat cat6">促销</span><br /><span class="subject">魅力無窮!阿拉丁&amp;茉莉公主造型登場!</span>			</div>
+			<div class="page-admin">
+			<style>
+.news-text{background-color:#043654 !important;color:#fff;}
+a{color:#0ff;}
+
+.alert_purple{color:#FFB3FF;font-weight:bold;}
+.alert_yellow{color:#FFFF33;font-weight:bold;}
+.alert_yellow2{color:#FFFF33;font-weight:}
+.alert_pow{color:#ff4a74;font-weight:bold;}
+.alert_pow2{color:#ff4a74;}
+.alert_spe{color:#5cd94a;font-weight:bold;}
+.alert_spe2{color:#5cd94a;}
+.alert_mag{color:#62a7ff;font-weight:bold;}
+.alert_mag2{color:#62a7ff;}
+
+.big{font-size:120%;}
+.small{font-size:85%;}
+.alert_s2{color:#cccccc;font-size:85%;}
+.alert01{color:#00d4ed;font-weight:bold;}
+.alert02{color:#ffcd4a;font-weight:bold;}
+.alert03{color:orange;font-weight:bold;}
+.alert04{color:#888;font-weight:bold;}
+.alert05{color:greenyellow;font-weight:bold;}
+.alert06{color:cyan;font-weight:bold;}
+
+table {
+border-collapse:collapse;
+margin: 0 auto;
+width:97%;
+table-layout:fixed;
+}
+
+td {
+color:#fff;
+text-align:center;
+vertical-align:middle;
+border-color:#fff;
+border-width:1px;
+border-style:solid;
+font-size:85%;
+}
+.td_tra {
+border-bottom-color:#043654;
+border-right-color:#043654;
+}
+.tr1 {
+background-color:#365e76;
+}
+.tr2 {
+background-color:#043654;
+}
+.td1 {
+background-color:#365e76;
+}
+.tdl {
+text-align:left;
+}
+.tdt {
+vertical-align:top;
+}
+sup {
+vertical-align: super;
+font-size:85%;
+}
+div.flo img {
+float: right;
+margin: 0 0 0 0;
+}
+img.flo {
+float: right;
+margin: 0 5px 0 0
+}
+</style>
+<img src="img/obZWNkous" alt="img" width="30%" class="flo"/>
+■活動期間<br />
+<strong>4/1(星期日)00:00～4/9(星期一)23:59</strong><br />
+<br />
+<div class="alert03 big">
+★魅力無窮的人氣角色!<br />
+　阿拉丁・茉莉公主的造型登場!<br /></div>
+<br />
+・於上述活動期間,豪華品項的造型看板將成對出現。<br />
+・各造型看板僅須2500寶石即可購得。<br />
+<br />
+<div class="alert_yellow2">
+☆能快速恢復技能值的「技能值獎勵增量」,<br />
+　還有能降低裝備額度的「希德」獎牌等也將一起華麗登場!<br /></div>
+<br />
+<div class="alert01 big">■期間限定的「造型看板」</div>
+<table>
+<tbody>
+<tr class="tr1">
+<td colspan="2">
+◆阿拉丁造型◆
+</td>
+</tr>
+<tr class="tr2">
+<td>
+<span class="alert06">史高治5★</span><br /><span class="alert06">(防禦增強II)</span>&times;1<br />
+</td>
+<td>
+<span class="alert06">史高治5★</span><br /><span class="alert06">(技能值獎勵增量)</span>&times;1<br />
+</td>
+</tr>
+<tr class="tr2">
+<td>
+<span class="alert_pow">奇奇5★</span><br /><span class="alert_pow">(攻擊力數值提升)</span>&times;3
+</td>
+<td>
+<span class="alert_pow">蒂蒂5★</span><br /><span class="alert_pow">(防禦力數值提升)</span>&times;3
+</td>
+</tr>
+<tr class="tr2">
+<td>
+<span class="alert03">希德6★</span><br /><span class="alert03">(裝備額度降低)</span>&times;6
+</td>
+<td>
+<span class="alert02">阿拉丁服裝</span>&times;1
+</td>
+</tr>
+
+<tr class="tr2">
+<td>
+<span class="alert02">阿拉丁髮型</span>&times;1<br />
+</td>
+<td>
+<span class="alert02">阿拉丁:頭巾</span>&times;1<br />
+</td>
+</tr>
+<tr class="tr2">
+<td>
+<span class="alert02">阿拉丁:胸針</span>&times;1<br />
+</td>
+<td>
+<span class="alert02">阿拉丁:斗篷</span>&times;1<br />
+</td>
+</tbody>
+</table>
+</br>
+
+<table>
+<tbody>
+<tr class="tr1">
+<td colspan="2">
+◆茉莉公主造型◆
+</td>
+</tr>
+<tr class="tr2">
+<td>
+<span class="alert06">史高治5★</span><br /><span class="alert06">(防禦增強II)</span>&times;1<br />
+</td>
+<td>
+<span class="alert06">史高治5★</span><br /><span class="alert06">(技能值獎勵增量)</span>&times;1<br />
+</td>
+</tr>
+<tr class="tr2">
+<td>
+<span class="alert_pow">奇奇5★</span><br /><span class="alert_pow">(攻擊力數值提升)</span>&times;3
+</td>
+<td>
+<span class="alert_pow">蒂蒂5★</span><br /><span class="alert_pow">(防禦力數值提升)</span>&times;3
+</td>
+</tr>
+<tr class="tr2">
+<td>
+<span class="alert03">希德6★</span><br /><span class="alert03">(裝備額度降低)</span>&times;6
+</td>
+<td>
+<span class="alert02">茉莉公主服裝</span>&times;1
+</td>
+</tr>
+
+<tr class="tr2">
+<td>
+<span class="alert02">茉莉公主髮型</span>&times;1<br />
+</td>
+<td>
+<span class="alert02">茉莉公主:頭冠</span>&times;1<br />
+</td>
+</tr>
+<tr class="tr2">
+<td>
+<span class="alert02">茉莉公主:耳環</span>&times;1<br />
+</td>
+<td>
+<span class="alert02">茉莉公主:環飾</span>&times;1<br />
+</td>
+</tbody>
+</table>
+</br>
+<div class="alert01 big">
+■機率提升<br /></div>
+<table>
+<tbody>
+<tr class="tr1">
+<td width="15%">
+種類
+</td>
+<td>
+造型服飾名稱
+</td>
+<td width="25%">
+機率類型
+</td>
+<td width="10%">
+效果值
+</td>
+</tr>
+<tr class="tr2">
+<td class="td1 tdt">
+胸2
+</td>
+<td class="td1">
+阿拉丁:胸針
+</td>
+<td class="tdt">
+稀有突襲魔王出現率
+</td>
+<td class="tdt">
++5
+</td>
+</tr>
+
+<tr class="tr2">
+<td class="td1 tdt">
+臉2
+</td>
+<td class="td1">
+茉莉公主:耳環
+</td>
+<td class="tdt"rowspan="2">
+稀有敵人出現率
+</td>
+<td class="tdt" rowspan="2">
++2
+</td>
+</tr>
+</tbody>
+</table>
+<br />
+<br />
+<div class="small">
+※點選「主選單&rarr;造型看板」即可找到上述造型看板。<br />
+※即便活動期間結束, 已購買的造型看板仍會保留於清單之中。<br />
+(如未曾購買, 活動期間結束後不再顯示上述造型看板。)<br />
+
+※本次的期間限定造型看板,解鎖各節點時無須使用角色硬幣。<br />
+</div>
+<br />
+
+
+<hr />
+<div align="right">
+最新消息請至官方Facebook粉絲專頁,並按讚追蹤!&rArr; <a href="https://web.archive.org/web/20190412174525/https://www.facebook.com/KingdomHeartsUxT/"><u>Kingdom Hearts Union &chi; - 王國之心 </u></a></div>
+</div><div class="btn"><a href="../list" target="_self" id="btn_back"><img src="img/oUpJN3GJ8" alt="戻る" width="10%" border="0" /></a></div>			</div>
+					</div>
+	</body>
+
+</html>

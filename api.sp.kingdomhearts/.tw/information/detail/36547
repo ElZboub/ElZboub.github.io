@@ -1,0 +1,257 @@
+
+
+<!DOCTYPE html>
+<html>
+	
+<head>
+		<meta charset="utf-8">
+		<title>INFORMATION｜KINGDOM HEARTS Union χ</title>
+		<style type="text/css">
+			html{
+				background:#043654;
+				margin:0;
+				padding:0;
+				color:#fff;
+			}
+
+			body{
+				background:#043654 url(img/7JzqN464T) no-repeat scroll 2% top / 60% auto;
+				max-width:908px;
+				font-family: "ヒラギノ角ゴ Pro W3","Hiragino Kaku Gothic Pro","メイリオ",Meiryo,"ＭＳ Ｐゴシック","MS PGothic",sans-serif;
+				font-size: 85%;
+				letter-spacing: 0.05em;
+				line-height: 1.8;
+				margin:0 auto;
+				padding: 1em 0.5em 9em;
+			}
+
+			a {
+				color:#0ff;
+				text-decoration:none;
+			}
+
+			a:hover {
+				text-decoration:underline;
+			}
+
+			ul {
+				list-style:none;
+				padding-left:0;
+			}
+
+			.subject {
+				font-size:93%;
+			}
+
+			.date {
+				font-size:85%;
+				display:block;
+				float:left;
+				margin-right:0.5em;
+			}
+
+			.news_cat {
+				font-size:77%;
+				display:block;
+				float:left;
+				margin-right:0.5em;
+
+				width:8em;
+				text-align:center;
+
+				border-style:solid;
+				border-width:1px;
+				border-radius:3px;
+				-webkit-border-radius:3px;
+				-moz-border-radius:3px;
+
+				letter-spacing: 0;
+			}
+
+			.cat1 { /* 重要なお知らせ */
+				background:#ed5b60;
+				border-color:#eda1a4;
+			}
+
+			.cat2 { /* アップデート */
+				background:#9dc668;
+				border-color:#b8c7a5;
+			}
+
+			.cat3 { /* 終了 */
+				background:#872bc4;
+				border-color:#a067c5;
+			}
+
+			.cat4 { /* メンテ */
+				background:#f78d14;
+				border-color:#f7b15f;
+			}
+
+			.cat5 { /* 復旧 */
+				background:#f249dc;
+				border-color:#f391e6;
+			}
+
+			.cat6 { /* キャンペーン */
+				background:#872bc4;
+				border-color:#a067c5;
+			}
+
+			.cat7 { /* 障害 */
+				background:#bc3846;
+				border-color:#bd7179;
+			}
+
+			.cat8 { /* イベント */
+				background:#14caf7;
+				border-color:#5fd8f7;
+			}
+
+			.cat9 { /* お知らせ */
+				background:#4271d6;
+				border-color:#819bd5;
+			}
+
+			.cat10 { /* その他 */
+				background:#7a7a7a;
+				border-color:#a1a1a1;
+			}
+
+			.container .title {
+				border-bottom:1px dotted #fff;
+				margin-bottom:1.0em;
+				padding:0.7em 0 0.5em;
+				clear:both;
+			}
+
+			.btn {
+				position:fixed;
+				left:0;
+				bottom:0;
+				background:transparent url(img/7JzjNmCER) left top repeat-x;
+				width:116%;
+				border-top:1px solid #073562;
+				padding:0.8em 1.0em 0;
+			}
+
+			a#btn_back {
+				border:0;
+				height:0;
+				padding-top:5%;
+			}
+
+			a#btn_back:hover img {
+				opacity:0.6;
+				filter:alpha(opacity=60);
+				-ms-filter: "alpha( opacity=60 )";
+				background:none!important;
+			}
+		</style>
+
+		<script type="text/javascript">
+		  window.addEventListener('load', function () {
+			var target = parent.postMessage ? parent : ( parent.document.postMessage ? parent.document : undefined );
+			if ( target !== undefined && document.body.scrollHeight ) {
+				target.postMessage( document.body.scrollWidth + "," + document.body.scrollHeight, "*" );
+			}
+		  })
+		</script>
+		
+		<base target="tool_result">
+	</head>
+
+	<body>
+		<div class="container">
+						<div class="title">
+				<span class="date">01/25</span><span class="news_cat cat8">活動</span><br /><span class="subject">高難度的榮耀任務！廣邀鑰刃使者不服來戰！</span>			</div>
+			<div class="page-admin">
+			<style>
+.news-text{background-color:#043654 !important;color:#fff;}
+a{color:#0ff;}
+
+.alert_pow{color:#ff4a74;font-weight:bold;}
+.alert_pow2{color:#ff4a74;}
+.alert_spe{color:#5cd94a;font-weight:bold;}
+.alert_spe2{color:#5cd94a;}
+.alert_mag{color:#62a7ff;font-weight:bold;}
+.alert_mag2{color:#62a7ff;}
+
+.big{font-size:120%;}
+.small{font-size:85%;}
+.alert_s2{color:#cccccc;font-size:85%;}
+.alert01{color:#00d4ed;font-weight:bold;}
+.alert02{color:#ffcd4a;font-weight:bold;}
+.alert03{color:orange;font-weight:bold;}
+.alert04{color:#888;font-weight:bold;}
+.alert05{color:greenyellow;font-weight:bold;}
+.alert06{color:cyan;font-weight:bold;}
+
+table {
+border-collapse:collapse;
+margin: 0 auto;
+width:97%;
+table-layout:fixed;
+}
+
+td {
+color:#fff;
+text-align:center;
+vertical-align:middle;
+border-color:#fff;
+border-width:1px;
+border-style:solid;
+font-size:85%;
+}
+
+.tr1 {
+background-color:#365e76;
+}
+.tr2 {
+background-color:#043654;
+}
+.td1 {
+background-color:#365e76;
+}
+.tdl {
+text-align:left;
+}
+sup {
+vertical-align: super;
+font-size:85%;
+}
+img.flo {
+float: right;
+margin: 0 0 0 0;
+}
+</style>
+<img src="img/oQP1NZ7n2" alt="img" width="100%" /><br />
+
+<div class="alert03 big">
+☆高難度的榮耀任務, 下戰帖啦!<br />
+　廣邀鑰刃使者, 不服來戰!<br /></div>
+<br />
+■活動期間<br />
+<strong>正式開放下載後～</strong><br />
+<br />
+<div class="alert01 big">
+■任務內容<br /></div>
+・榮耀任務為強敵環伺的高難度關卡。<br />
+<br />
+・任務依力量、速度、魔法屬性共分為3種，<br />
+　各位可依本身擅長的屬性選擇想要挑戰的類別!<br />
+<br />
+・完成任務挑戰，有機會獲得紀念頭銜或「希德」、「蒂蒂」等獎牌。<br />
+<br />
+・榮耀任務為固定活動任務。逐步強化裝備，放眼全數破關吧!<br />
+<br />
+<span class="small">※如果想要進行活動任務,請依序點選「主選單」>「任務」>「活動」即可。 <br/>
+此外,完成故事任務中第34關為開放活動任務的必要條件。</span><br />
+<br />
+<hr />
+<div align="right">
+最新消息請至官方Facebook粉絲專頁,並按讚追蹤!&rArr;  <a href="https://web.archive.org/web/20190412174525/https://www.facebook.com/KingdomHeartsUxT/"><u>Kingdom Hearts Union &chi; - 王國之心 </u></a></div></div><div class="btn"><a href="../list" target="_self" id="btn_back"><img src="img/oUpJN3GJ8" alt="戻る" width="10%" border="0" /></a></div>			</div>
+					</div>
+	</body>
+
+</html>

@@ -1,0 +1,762 @@
+
+
+<!DOCTYPE html>
+<html>
+	
+<head>
+		<meta charset="utf-8">
+		<title>INFORMATION｜KINGDOM HEARTS Union χ</title>
+		<style type="text/css">
+			html{
+				background:#043654;
+				margin:0;
+				padding:0;
+				color:#fff;
+			}
+
+			body{
+				background:#043654 url(img/7JzqN464T) no-repeat scroll 2% top / 60% auto;
+				max-width:908px;
+				font-family: "ヒラギノ角ゴ Pro W3","Hiragino Kaku Gothic Pro","メイリオ",Meiryo,"ＭＳ Ｐゴシック","MS PGothic",sans-serif;
+				font-size: 85%;
+				letter-spacing: 0.05em;
+				line-height: 1.8;
+				margin:0 auto;
+				padding: 1em 0.5em 9em;
+			}
+
+			a {
+				color:#0ff;
+				text-decoration:none;
+			}
+
+			a:hover {
+				text-decoration:underline;
+			}
+
+			ul {
+				list-style:none;
+				padding-left:0;
+			}
+
+			.subject {
+				font-size:93%;
+			}
+
+			.date {
+				font-size:85%;
+				display:block;
+				float:left;
+				margin-right:0.5em;
+			}
+
+			.news_cat {
+				font-size:77%;
+				display:block;
+				float:left;
+				margin-right:0.5em;
+
+				width:8em;
+				text-align:center;
+
+				border-style:solid;
+				border-width:1px;
+				border-radius:3px;
+				-webkit-border-radius:3px;
+				-moz-border-radius:3px;
+
+				letter-spacing: 0;
+			}
+
+			.cat1 { /* 重要なお知らせ */
+				background:#ed5b60;
+				border-color:#eda1a4;
+			}
+
+			.cat2 { /* アップデート */
+				background:#9dc668;
+				border-color:#b8c7a5;
+			}
+
+			.cat3 { /* 終了 */
+				background:#872bc4;
+				border-color:#a067c5;
+			}
+
+			.cat4 { /* メンテ */
+				background:#f78d14;
+				border-color:#f7b15f;
+			}
+
+			.cat5 { /* 復旧 */
+				background:#f249dc;
+				border-color:#f391e6;
+			}
+
+			.cat6 { /* キャンペーン */
+				background:#872bc4;
+				border-color:#a067c5;
+			}
+
+			.cat7 { /* 障害 */
+				background:#bc3846;
+				border-color:#bd7179;
+			}
+
+			.cat8 { /* イベント */
+				background:#14caf7;
+				border-color:#5fd8f7;
+			}
+
+			.cat9 { /* お知らせ */
+				background:#4271d6;
+				border-color:#819bd5;
+			}
+
+			.cat10 { /* その他 */
+				background:#7a7a7a;
+				border-color:#a1a1a1;
+			}
+
+			.container .title {
+				border-bottom:1px dotted #fff;
+				margin-bottom:1.0em;
+				padding:0.7em 0 0.5em;
+				clear:both;
+			}
+
+			.btn {
+				position:fixed;
+				left:0;
+				bottom:0;
+				background:transparent url(img/7JzjNmCER) left top repeat-x;
+				width:116%;
+				border-top:1px solid #073562;
+				padding:0.8em 1.0em 0;
+			}
+
+			a#btn_back {
+				border:0;
+				height:0;
+				padding-top:5%;
+			}
+
+			a#btn_back:hover img {
+				opacity:0.6;
+				filter:alpha(opacity=60);
+				-ms-filter: "alpha( opacity=60 )";
+				background:none!important;
+			}
+		</style>
+
+		<script type="text/javascript">
+		  window.addEventListener('load', function () {
+			var target = parent.postMessage ? parent : ( parent.document.postMessage ? parent.document : undefined );
+			if ( target !== undefined && document.body.scrollHeight ) {
+				target.postMessage( document.body.scrollWidth + "," + document.body.scrollHeight, "*" );
+			}
+		  })
+		</script>
+		
+		<base target="tool_result">
+	</head>
+
+	<body>
+		<div class="container">
+						<div class="title">
+				<span class="date">01/25</span><span class="news_cat cat6">促销</span><br /><span class="subject">「動物方城市、美女與野獸＆小熊維尼」造型看板登場！</span>			</div>
+			<div class="page-admin">
+			<style>
+.news-text{background-color:#043654 !important;color:#fff;}
+a{color:#0ff;}
+
+.alert_pow{color:#ff4a74;font-weight:bold;}
+.alert_pow2{color:#ff4a74;}
+.alert_spe{color:#5cd94a;font-weight:bold;}
+.alert_spe2{color:#5cd94a;}
+.alert_mag{color:#62a7ff;font-weight:bold;}
+.alert_mag2{color:#62a7ff;}
+
+.big{font-size:120%;}
+.small{font-size:85%;}
+.alert_s2{color:#cccccc;font-size:85%;}
+.alert01{color:#00d4ed;font-weight:bold;}
+.alert02{color:#ffcd4a;font-weight:bold;}
+.alert03{color:orange;font-weight:bold;}
+.alert04{color:#888;font-weight:bold;}
+.alert05{color:greenyellow;font-weight:bold;}
+.alert06{color:cyan;font-weight:bold;}
+
+table {
+border-collapse:collapse;
+margin: 0 auto;
+width:97%;
+table-layout:fixed;
+}
+
+td {
+color:#fff;
+text-align:center;
+vertical-align:middle;
+border-color:#fff;
+border-width:1px;
+border-style:solid;
+font-size:85%;
+}
+.td_tra {
+border-bottom-color:#043654;
+border-right-color:#043654;
+}
+.tr1 {
+background-color:#365e76;
+}
+.tr2 {
+background-color:#043654;
+}
+.td1 {
+background-color:#365e76;
+}
+.tdl {
+text-align:left;
+}
+.tdt {
+vertical-align:top;
+}
+sup {
+vertical-align: super;
+font-size:85%;
+}
+img.flo {
+float: right;
+margin: 0 0 0 0;
+}
+</style>
+■活動期間<br />
+<strong>正式開放下載後～3/5(星期一)23:59<br /></strong>
+<br />
+<div class="alert03 big">
+☆人氣鉅作「動物方城市」、「美女與野獸」與「小熊維尼」<br />
+　各作中超人氣角色的造型服飾華麗登場!<br /></div>
+<br />
+<center>
+<img src="img/oQUoNS37S" alt="img" width="80%" />
+</center>
+・於上述活動期間,這些可愛迷人的服飾的造型看板將成對出現。<br />
+・各造型看板僅須2500寶石即可購得。<br />
+<br />
+☆能突破極限,增強攻擊力與防禦力的「奇奇」、「蒂蒂」獎牌<br />
+　以及能夠降低獎牌裝備額度的「希德」也將一併登場,千萬不可錯過!<br />
+<br />
+
+<div class="alert01 big">■期間限定的「造型看板」</div>
+<center>
+<img src="img/oQU9NbFOu" alt="img" width="10%" />
+</center>
+<table>
+<tbody>
+<tr class="tr1">
+<td colspan="2">
+◆胡尼克造型◆
+</td>
+</tr>
+<tr class="tr2">
+<td>
+<span class="alert06">史高治3★<br />(攻擊增強I)&times;1</span>
+</td>
+<td>
+<span class="alert06">史高治3★<br />(防禦增強I)&times;1</span>
+</td>
+</tr>
+<tr class="tr2">
+<td>
+<span class="alert05">杜依6★(魔法)&times;1</span>
+</td>
+<td>
+<span class="alert05">休依6★(力量)&times;1</span>
+</td>
+</tr>
+<tr class="tr2">
+<td>
+<span class="alert05">路依6★(速度)&times;1</span>
+</td>
+<td>
+<span class="alert03">莫古利6★&times;2</span>
+</td>
+</tr>
+<tr class="tr2">
+<td>
+<span class="alert_pow">奇奇5★<br />(攻擊力數值提升)&times;3</span>
+</td>
+<td>
+<span class="alert_pow">蒂蒂5★<br />(防禦力數值提升)&times;3</span>
+</td>
+</tr>
+<tr class="tr2">
+<td>
+希德6★&times;3
+</td>
+<td>
+<span class="alert02">胡尼克尾巴&times;1</span>
+</td>
+</tr>
+<tr class="tr2">
+<td>
+<span class="alert02">胡尼克風格<br />(髮型)&times;1</span>
+</td>
+<td>
+<span class="alert02">胡尼克<br />(服裝)&times;1</span>
+</td>
+</tr>
+</tbody>
+</table>
+<br />
+<center>
+<img src="img/oQUcNVZJL" alt="img" width="8%" />
+</center>
+<table>
+<tbody>
+<tr class="tr1">
+<td colspan="2">
+◆哈茱蒂造型◆
+</td>
+</tr>
+<tr class="tr2">
+<td>
+<span class="alert06">史高治3★<br />(攻擊增強I)&times;1</span>
+</td>
+<td>
+<span class="alert06">史高治3★<br />(防禦增強I)&times;1</span>
+</td>
+</tr>
+<tr class="tr2">
+<td>
+<span class="alert05">杜依6★(魔法)&times;1</span>
+</td>
+<td>
+<span class="alert05">休依6★(力量)&times;1</span>
+</td>
+</tr>
+<tr class="tr2">
+<td>
+<span class="alert05">路依6★(速度)&times;1</span>
+</td>
+<td>
+<span class="alert03">莫古利6★&times;2</span>
+</td>
+</tr>
+<tr class="tr2">
+<td>
+<span class="alert_pow">奇奇5★<br />(攻擊力數值提升)&times;3</span>
+</td>
+<td>
+<span class="alert_pow">蒂蒂5★<br />(防禦力數值提升)&times;3</span>
+</td>
+</tr>
+<tr class="tr2">
+<td>
+希德6★&times;3
+</td>
+<td>
+<span class="alert02">哈茱蒂尾巴&times;1</span>
+</td>
+</tr>
+<tr class="tr2">
+<td>
+<span class="alert02">哈茱蒂風格<br />(髮型)&times;1</span>
+</td>
+<td>
+<span class="alert02">哈茱蒂<br />(服裝)&times;1</span>
+</td>
+</tr>
+</tbody>
+</table>
+<br />
+<center>
+<img src="img/oQUkN6uXF" alt="img" width="14%" />
+</center>
+<table>
+<tbody>
+<tr class="tr1">
+<td colspan="2">
+◆小熊維尼造型(男生版)◆
+</td>
+</tr>
+<tr class="tr2">
+<td>
+<span class="alert06">史高治3★<br />(攻擊增強I)&times;1</span>
+</td>
+<td>
+<span class="alert06">史高治3★<br />(防禦增強I)&times;1</span>
+</td>
+</tr>
+<tr class="tr2">
+<td>
+<span class="alert05">杜依6★(魔法)&times;1</span>
+</td>
+<td>
+<span class="alert05">休依6★(力量)&times;1</span>
+</td>
+</tr>
+<tr class="tr2">
+<td>
+<span class="alert05">路依6★(速度)&times;1</span>
+</td>
+<td>
+希德6★&times;3
+</td>
+</tr>
+<tr class="tr2">
+<td>
+<span class="alert_pow">奇奇5★<br />(攻擊力數值提升)&times;3</span>
+</td>
+<td>
+<span class="alert_pow">蒂蒂5★<br />(防禦力數值提升)&times;3</span>
+</td>
+</tr>
+<tr class="tr2">
+<td>
+<span class="alert02">小熊維尼:氣球&times;1</span>
+</td>
+<td>
+<span class="alert02">小熊維尼:包包&times;1</span>
+</td>
+</tr>
+<tr class="tr2">
+<td>
+<span class="alert02">小熊維尼風格<br />(髮型)&times;1</span>
+</td>
+<td>
+<span class="alert02">小熊維尼<br />(服裝)&times;1</span>
+</td>
+</tr>
+<tr class="tr2">
+<td>
+<span class="alert02">小熊維尼:緞帶&times;1</span>
+</td>
+<td class="td_tra">
+</td>
+</tr>
+</tbody>
+</table>
+<br />
+<table>
+<tbody>
+<tr class="tr1">
+<td colspan="2">
+◆小熊維尼造型(女生版)◆
+</td>
+</tr>
+<tr class="tr2">
+<td>
+<span class="alert06">史高治3★<br />(攻擊增強I)&times;1</span>
+</td>
+<td>
+<span class="alert06">史高治3★<br />(防禦增強I)&times;1</span>
+</td>
+</tr>
+<tr class="tr2">
+<td>
+<span class="alert05">杜依6★(魔法)&times;1</span>
+</td>
+<td>
+<span class="alert05">休依6★(力量)&times;1</span>
+</td>
+</tr>
+<tr class="tr2">
+<td>
+<span class="alert05">路依6★(速度)&times;1</span>
+</td>
+<td>
+希德6★&times;3
+</td>
+</tr>
+<tr class="tr2">
+<td>
+<span class="alert_pow">奇奇5★<br />(攻擊力數值提升)&times;3</span>
+</td>
+<td>
+<span class="alert_pow">蒂蒂5★<br />(防禦力數值提升)&times;3</span>
+</td>
+</tr>
+<tr class="tr2">
+<td>
+<span class="alert02">小熊維尼:氣球&times;1</span>
+</td>
+<td>
+<span class="alert02">小熊維尼:包包&times;1</span>
+</td>
+</tr>
+<tr class="tr2">
+<td>
+<span class="alert02">小熊維尼風格<br />(髮型)&times;1</span>
+</td>
+<td>
+<span class="alert02">小熊維尼<br />(服裝)&times;1</span>
+</td>
+</tr>
+<tr class="tr2">
+<td>
+<span class="alert02">小熊維尼:緞帶&times;1</span>
+</td>
+<td class="td_tra">
+</td>
+</tr>
+</tbody>
+</table>
+<br />
+<center>
+<img src="img/oQUmNxqZF" alt="img" width="13%" />
+</center>
+<table>
+<tbody>
+<tr class="tr1">
+<td colspan="2">
+◆野獸造型◆
+</td>
+</tr>
+<tr class="tr2">
+<td>
+<span class="alert06">史高治3★<br />(攻擊增強I)&times;1</span>
+</td>
+<td>
+<span class="alert06">史高治3★<br />(防禦增強I)&times;1</span>
+</td>
+</tr>
+<tr class="tr2">
+<td>
+<span class="alert05">杜依6★(魔法)&times;1</span>
+</td>
+<td>
+<span class="alert05">休依6★(力量)&times;1</span>
+</td>
+</tr>
+<tr class="tr2">
+<td>
+<span class="alert05">路依6★(速度)&times;1</span>
+</td>
+<td>
+<span class="alert03">莫古利6★&times;1</span>
+</td>
+</tr>
+<tr class="tr2">
+<td>
+<span class="alert_pow">奇奇5★<br />(攻擊力數值提升)&times;3</span>
+</td>
+<td>
+<span class="alert_pow">蒂蒂5★<br />(防禦力數值提升)&times;3</span>
+</td>
+</tr>
+<tr class="tr2">
+<td>
+希德6★&times;3
+</td>
+<td>
+<span class="alert02">野獸:尾巴&times;1</span>
+</td>
+</tr>
+<tr class="tr2">
+<td>
+<span class="alert02">野獸風格<br />(髮型)&times;1</span>
+</td>
+<td>
+<span class="alert02">野獸<br />(服裝)&times;1</span>
+</td>
+</tr>
+<tr class="tr2">
+<td>
+<span class="alert02">野獸:角&times;1</span>
+</td>
+<td class="td_tra">
+</td>
+</tr>
+</tbody>
+</table>
+<br />
+<center>
+<img src="img/oQU5NwAmw" alt="img" width="12%" />
+</center>
+<table>
+<tbody>
+<tr class="tr1">
+<td colspan="2">
+◆貝兒造型◆
+</td>
+</tr>
+<tr class="tr2">
+<td>
+<span class="alert06">史高治3★<br />(攻擊增強I)&times;1</span>
+</td>
+<td>
+<span class="alert06">史高治3★<br />(防禦增強I)&times;1</span>
+</td>
+</tr>
+<tr class="tr2">
+<td>
+<span class="alert05">杜依6★(魔法)&times;1</span>
+</td>
+<td>
+<span class="alert05">休依6★(力量)&times;1</span>
+</td>
+</tr>
+<tr class="tr2">
+<td>
+<span class="alert05">路依6★(速度)&times;1</span>
+</td>
+<td>
+<span class="alert03">莫古利6★&times;1</span>
+</td>
+</tr>
+<tr class="tr2">
+<td>
+<span class="alert_pow">奇奇5★<br />(攻擊力數值提升)&times;3</span>
+</td>
+<td>
+<span class="alert_pow">蒂蒂5★<br />(防禦力數值提升)&times;3</span>
+</td>
+</tr>
+<tr class="tr2">
+<td>
+希德6★&times;3
+</td>
+<td>
+<span class="alert02">貝兒:耳環&times;1</span>
+</td>
+</tr>
+<tr class="tr2">
+<td>
+<span class="alert02">貝兒風格<br />(髮型)&times;1</span>
+</td>
+<td>
+<span class="alert02">貝兒<br />(服裝)&times;1</span>
+</td>
+</tr>
+<tr class="tr2">
+<td>
+<span class="alert02">貝兒:手鐲&玫瑰&times;1</span>
+</td>
+<td class="td_tra">
+</td>
+</tr>
+</tbody>
+</table>
+<br />
+
+<div class="alert01 big">
+■機率提升<br /></div>
+<table>
+<tbody>
+<tr class="tr1">
+<td width="15%">
+種類
+</td>
+<td>
+造型服飾名稱
+</td>
+<td width="25%">
+機率類型
+</td>
+<td width="10%">
+效果值
+</td>
+</tr>
+<tr class="tr2">
+<td class="td1 tdt" rowspan="3">
+腰
+</td>
+<td class="td1">
+胡尼克尾巴
+</td>
+<td class="tdt" rowspan="3">
+掉寶率
+</td>
+<td class="tdt" rowspan="3">
++3
+</td>
+</tr>
+<tr class="tr2">
+<td class="td1">
+哈茱蒂尾巴
+</td>
+</tr>
+<tr class="tr2">
+<td class="td1">
+野獸:尾巴
+</td>
+</tr>
+</tbody>
+
+
+<tr class="tr2">
+<td class="td1 tdt" rowspan="2">
+胸2
+</td>
+<td class="td1">
+小熊維尼:緞帶(男生版)
+</td>
+<td class="tdt" rowspan="2">
+爆擊率
+</td>
+<td class="tdt" rowspan="2">
++5
+</td>
+</tr>
+<tr class="tr2">
+<td class="td1">
+小熊維尼:緞帶(女生版)
+</td>
+</tr>
+
+<tr class="tr2">
+<td class="td1 tdt" rowspan="2">
+背
+</td>
+<td class="td1">
+小熊維尼:氣球(男生版)
+</td>
+<td class="tdt" rowspan="4">
+技能觸發率
+</td>
+<td class="tdt" rowspan="2">
++3
+</td>
+</tr>
+<tr class="tr2">
+<td class="td1">
+小熊維尼:氣球(女生版)
+</td>
+</tr>
+
+<tr class="tr2">
+<td class="td1 tdt" rowspan="1">
+臉2
+</td>
+<td class="td1">
+貝兒:耳環
+</td>
+
+<td class="tdt" rowspan="1">
++6
+</td>
+</tr>
+
+</tbody>
+</table>
+<br />
+
+<div class="small">
+※點選「主選單&rarr;造型看板」即可找到上述三套造型看板。<br />
+※即便活動期間結束, 已購買的造型看板仍會保留於清單之中。<br />
+(如未曾購買, 活動期間結束後不再顯示上述三套造型看板。)<br />
+
+※本次的期間限定造型看板,解鎖各節點時無須使用角色硬幣。<br />
+</div>
+<br />
+
+
+<hr />
+<div align="right">
+最新消息請至官方Facebook粉絲專頁,並按讚追蹤!&rArr; <a href="https://web.archive.org/web/20190412174525/https://www.facebook.com/KingdomHeartsUxT/"><u>Kingdom Hearts Union &chi; - 王國之心 </u></a></div></div><div class="btn"><a href="../list" target="_self" id="btn_back"><img src="img/oUpJN3GJ8" alt="戻る" width="10%" border="0" /></a></div>			</div>
+					</div>
+	</body>
+
+</html>
