@@ -15,10 +15,10 @@
 			}
 			body{
 				background:#043654 url(img/7JzqN464T) no-repeat scroll 2% top / 60% auto;
-				max-width:1200px; /* max-width:908px; Original parameters */
-				//width:100%;
+				max-width:908px;
+				/*width:100%;*/
 				font-family: "ヒラギノ角ゴ Pro W3","Hiragino Kaku Gothic Pro","メイリオ",Meiryo,"ＭＳ Ｐゴシック","MS PGothic",sans-serif;
-				font-size: 100%; /* font-size: 85%; Original parameters */
+				font-size: 85%; Original parameters
 				letter-spacing: 0.05em;
 				line-height: 2.0;
 				margin:0 auto;
@@ -179,9 +179,9 @@
 		<div class="container">
 				<ul>
 					<li></li>
-					<li><span class="date">06/22/2020</span><span class="news_cat cat10">VERSION</span><a class="subject" href=".com/dark/information/list" target="_self">Worldwide KHDR notices (WIP)</a></li>
+					<li><span class="date">06/22/2020</span><span class="news_cat cat10">VERSION</span><a class="subject" href="com/dark/information/list" target="_self">Worldwide KHDR notices (WIP)</a></li>
 					<li><span class="date">06/22/2020</span><span class="news_cat cat10">VERSION</span><a class="subject" href="#" target="_self"><s>Japanese KHDR notices (WIP)</s></a></li>
-					<li><span class="date">01/25/2018</span><span class="news_cat cat10">VERSION</span><a class="subject" href=".tw/information/list" target="_self">Taiwanese KHUx notices</a></li>
+					<li><span class="date">01/25/2018</span><span class="news_cat cat10">VERSION</span><a class="subject" href="tw/information/list" target="_self">Taiwanese KHUx notices</a></li>
 					<li><span class="date">04/07/2016</span><span class="news_cat cat10">VERSION</span><a class="subject" href="#" target="_self"><s>Worldwide KHUx notices (WIP)</s></a></li>
 					<li><span class="date">09/03/2015</span><span class="news_cat cat10">VERSION</span><a class="subject" href="#" target="_self"><s>Japanese KHUx notices (WIP)</s></a></li>
 				</ul>
