@@ -190,11 +190,12 @@
 		<p><span class="alert01">■ Todo</span> 
 		<p>・Voir si ajouter notice originales modifiée ou pas</p>
 		<p>・Vérifier titres et dates</p>
-		<p>・ Pourquoi pas ajouter le theme sur le site ?</p>
+		<p>・Pourquoi pas ajouter le theme sur le site ?</p>
+		<p>・Utiliser target="_self" pour liens dans notices</p>
 		<br/>
 		<p><span class="alert01">■ About this site</span> 
 		<br>・This website is a recreation of the <span class="alert07">API</span> used of both <span class="alert_pow">Kingdom Hearts Union χ</span> and <span class="alert_pow">Kingdom Hearts Dark Road</span> that closed in June 2021. (Also, this website is far from finish and still a work in progress)</p>
-		<p>・Some notices have <span class="alert05">yellow title</span> instead of white, that's because they are not the official backup notices, but a <span class="alert05">recreation</span> from myself since the originales were modified by Square Enix.</p>
+		<p>・Some notices have <span class="alert05">yellow title</span> instead of white, that's because they are not the official backup notices, but a <span class="alert05">recreation</span> from myself since the originales were modified by Square Enix or lost.</p>
 		<p>・I am not related to Square Enix, Dinsey or any other companies who originaly worked on this site. I am just a fan who wanted to provide a small part of the original Kingdom Hearts χ for free.</p>
 		<p><span class="alert_spe"><i>■ May your heart be your guiding key</i></span></p>
 	</body>
